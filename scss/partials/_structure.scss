@@ -1,0 +1,74 @@
+//Site Structure
+
+.site-header{
+    position:absolute;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    
+
+    a{
+        color: white;
+        text-decoration: none;
+    }
+
+    h1{
+        font-size: 1.5em;
+        margin: 0;
+    }
+
+}
+
+//Site footer
+.site-footer{
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    background-color: black;
+
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+
+//SITE NAv
+.site-nav{
+    ul{
+        margin: 0;
+        list-style: none;
+        display: flex;
+        padding: 0;
+    }
+    a{
+        display: inline-block;
+        padding: 1em;
+        line-height: 1;
+
+    }
+}
+
+section {
+    padding: 4em 0;
+}
+
+
+// HERO SECTION
+.hero {
+    background-color: $color-accent;
+    text-align: center;
+    padding: 6em;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+
+    h1{
+        margin-bottom: .25em;
+    }
+    p{
+        margin: 1em auto;
+    }
+}
